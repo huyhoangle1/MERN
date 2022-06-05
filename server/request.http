@@ -21,7 +21,7 @@ Content-Type: application/json
 ########### Post Login
 POST http://localhost:3000/api/post 
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljYmZjNmQ5ZGRhMDhhZmI1ODk1M2MiLCJpYXQiOjE2NTQ0Mzk4Nzh9.b16VsyTLbTG0SdU8YR4OhwW2SoOjkmNh5p-o2wnqC5U
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljZDFhNDQ0NzZiYWRjNzBjNDg2ZGIiLCJpYXQiOjE2NTQ0NDQ0NTJ9.jN_uZOZ-YaSTQy2PbklXSfkO-BYnxXvsMjTsd4FYl1I
 
 
 {
@@ -34,4 +34,4 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljY
 ##############3
 
 GET http://localhost:3000/api/post 
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljYmZjNmQ5ZGRhMDhhZmI1ODk1M2MiLCJpYXQiOjE2NTQ0Mzk4Nzh9.b16VsyTLbTG0SdU8YR4OhwW2SoOjkmNh5p-o2wnqC5U
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljZDFhNDQ0NzZiYWRjNzBjNDg2ZGIiLCJpYXQiOjE2NTQ0NDQ0NTJ9.jN_uZOZ-YaSTQy2PbklXSfkO-BYnxXvsMjTsd4FYl1I

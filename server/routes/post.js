@@ -6,7 +6,7 @@ const post = require('../models/post');
 
 router.get('/', verifyToken, async (req, res) =>{
     try {
-        const posts = await post.find({user: req.userId}).populate('users');
+        const posts = await post.find({user: req.userId}).populate('users',['username']);
         res.json({success:true, posts});
     } catch (error) {
         console.log(error);
@@ -18,7 +18,7 @@ router.get('/', verifyToken, async (req, res) =>{
 
 router.post('/',verifyToken, async (req, res) => {
     const {title,description,url,status} = req.body;
-    console.log( req.userId);
+    console.log( req.userID);
 
     if(!title){
         return res.status(404).json({success: false,message: 'No title' })
@@ -29,7 +29,7 @@ router.post('/',verifyToken, async (req, res) => {
         description, 
         url: url.startsWith('https://') ? url : `https://${url}`, 
         status: status || "TO LEARN",
-        user: req.userId
+        users: req.userID
     });
     await newPost.save();
     res.json({success: true,message: "Success",post: newPost});
