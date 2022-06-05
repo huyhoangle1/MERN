@@ -3,8 +3,8 @@ Content-Type: application/json
 
 
 {
-    "username": "hoangle",
-    "password": "hoangleee"
+    "username": "hoanglew2q",
+    "password": "hoangleeew"
 }
 
 ################################ login
@@ -14,14 +14,14 @@ Content-Type: application/json
 
 
 {
-    "username": "admin",
-    "password": "123"
+    "username": "hoanglew2q",
+    "password": "hoangleeew"
 }
 
 ########### Post Login
 POST http://localhost:3000/api/post 
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljZDFhNDQ0NzZiYWRjNzBjNDg2ZGIiLCJpYXQiOjE2NTQ0NDQ0NTJ9.jN_uZOZ-YaSTQy2PbklXSfkO-BYnxXvsMjTsd4FYl1I
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljZGViZGJiZjhlYTI5YWMyNTg0MWUiLCJpYXQiOjE2NTQ0NDc4Nzd9.FAUDkMKHK8nAET7b4Th2cx_Drx7v0pDYWSlQXX4v0nk
 
 
 {
@@ -34,4 +34,22 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljZ
 ##############3
 
 GET http://localhost:3000/api/post 
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljZDFhNDQ0NzZiYWRjNzBjNDg2ZGIiLCJpYXQiOjE2NTQ0NDQ0NTJ9.jN_uZOZ-YaSTQy2PbklXSfkO-BYnxXvsMjTsd4FYl1I
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljZGViZGJiZjhlYTI5YWMyNTg0MWUiLCJpYXQiOjE2NTQ0NDc4Nzd9.FAUDkMKHK8nAET7b4Th2cx_Drx7v0pDYWSlQXX4v0nk
+
+
+#########
+PUT http://localhost:3000/api/post/629cdf10bbf8ea29ac258427
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljZGViZGJiZjhlYTI5YWMyNTg0MWUiLCJpYXQiOjE2NTQ0NDc4Nzd9.FAUDkMKHK8nAET7b4Th2cx_Drx7v0pDYWSlQXX4v0nk
+
+{
+  "title": "Vue",
+  "description": "VUEEEEE",
+  "url": "https://vuejs.org",
+  "status": "LEARNING"
+}
+
+#####
+DELETE http://localhost:3000/api/post/629cdf10bbf8ea29ac258427
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljZGViZGJiZjhlYTI5YWMyNTg0MWUiLCJpYXQiOjE2NTQ0NDc4Nzd9.FAUDkMKHK8nAET7b4Th2cx_Drx7v0pDYWSlQXX4v0nk
+
