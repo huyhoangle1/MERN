@@ -1,4 +1,4 @@
-POST http://localhost:3000/api/auth/register
+POST http://localhost:5000/api/auth/register
 Content-Type: application/json
 
 
@@ -9,7 +9,7 @@ Content-Type: application/json
 
 ################################ login
 
-POST http://localhost:3000/api/auth/login
+POST http://localhost:5000/api/auth/login
 Content-Type: application/json
 
 
@@ -19,7 +19,7 @@ Content-Type: application/json
 }
 
 ########### Post Login
-POST http://localhost:3000/api/post 
+POST http://localhost:5000/api/post 
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljZGViZGJiZjhlYTI5YWMyNTg0MWUiLCJpYXQiOjE2NTQ0NDc4Nzd9.FAUDkMKHK8nAET7b4Th2cx_Drx7v0pDYWSlQXX4v0nk
 
@@ -33,12 +33,12 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljZ
 
 ##############3
 
-GET http://localhost:3000/api/post 
+GET http://localhost:5000/api/post 
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljZGViZGJiZjhlYTI5YWMyNTg0MWUiLCJpYXQiOjE2NTQ0NDc4Nzd9.FAUDkMKHK8nAET7b4Th2cx_Drx7v0pDYWSlQXX4v0nk
 
 
 #########
-PUT http://localhost:3000/api/post/629cdf10bbf8ea29ac258427
+PUT http://localhost:5000/api/post/629cdf10bbf8ea29ac258427
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljZGViZGJiZjhlYTI5YWMyNTg0MWUiLCJpYXQiOjE2NTQ0NDc4Nzd9.FAUDkMKHK8nAET7b4Th2cx_Drx7v0pDYWSlQXX4v0nk
 
@@ -50,6 +50,6 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljZ
 }
 
 #####
-DELETE http://localhost:3000/api/post/629cdf10bbf8ea29ac258427
+DELETE http://localhost:5000/api/post/629cdf10bbf8ea29ac258427
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MjljZGViZGJiZjhlYTI5YWMyNTg0MWUiLCJpYXQiOjE2NTQ0NDc4Nzd9.FAUDkMKHK8nAET7b4Th2cx_Drx7v0pDYWSlQXX4v0nk
 
